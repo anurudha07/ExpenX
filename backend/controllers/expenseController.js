@@ -70,15 +70,12 @@ exports.DownloadExpenseExcel = async (req, res) => {
     const wb = xlsx.utils.book_new();
     const ws = xlsx.utils.json_to_sheet(data);
     xlsx.utils.book_append_sheet(wb, ws, "Expenses");
-
-    // Generate buffer
     const buffer = xlsx.write(wb, { bookType: 'xlsx', type: 'buffer' });
 
     // Set response headers
     res.setHeader('Content-Disposition', 'attachment; filename="expense_details.xlsx"');
     res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 
-    // Send buffer directly
     return res.send(buffer);
 
   } catch (error) {
