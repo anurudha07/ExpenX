@@ -70,7 +70,6 @@ exports.DownloadIncomeExcel = async (req, res) => {
     const ws = xlsx.utils.json_to_sheet(data);
     xlsx.utils.book_append_sheet(wb, ws, 'Income');
 
-    // Generate a buffer instead of writing a file
     const buffer = xlsx.write(wb, { bookType: 'xlsx', type: 'buffer' });
 
     // Set headers for download
@@ -83,7 +82,6 @@ exports.DownloadIncomeExcel = async (req, res) => {
       'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     );
 
-    // Stream the buffer
     return res.send(buffer);
   } catch (error) {
     console.error('Error generating income Excel:', error);
@@ -91,9 +89,7 @@ exports.DownloadIncomeExcel = async (req, res) => {
   }
 };
 
-// at the bottom of controllers/incomeController.js
-
-
+// Update Income
 exports.updateIncome = async (req, res) => {
   try {
     const { id } = req.params;
