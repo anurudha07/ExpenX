@@ -16,7 +16,7 @@ const AuthLayout = ({ children }) => {
             rel="stylesheet"
           />
           <p
-            className="text-4xl italic mb-6"
+            className="text-4xl italic mb-9"
             style={{ fontFamily: 'Allura, cursive', color: '#000' }}
           >
             " Your Expense Tracking Partner... "
