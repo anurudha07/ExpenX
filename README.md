@@ -66,13 +66,13 @@ Deployment: Render (or Heroku)
 
 Clone the repository
 
-git clone https://github.com/<your-username>/expenx.git
-cd expenx
+git clone https://github.com/anurudha07/ExpenX.git
+cd ExpenX
 
 Install dependencies
 
-cd server && npm install
-cd ../client && npm install
+cd backend && npm install
+cd ../frontend && npm install
 
 Configure environment variables
 
@@ -115,5 +115,5 @@ This project is licensed under the MIT License.
 
 # Contact
 
-Priya – priyayadav06092002@gmail.com
-Project Link: https://github.com//expenx
+Priya – anurudhs567@gmail.com
+Project Link: https://github.com/anurudha07/ExpenX
