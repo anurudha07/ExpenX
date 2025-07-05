@@ -115,5 +115,5 @@ This project is licensed under the MIT License.
 
 # Contact
 
-Priya – anurudhs567@gmail.com
+Anurudha Sarkar – anurudhs567@gmail.com
 Project Link: https://github.com/anurudha07/ExpenX
