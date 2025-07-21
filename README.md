@@ -1,119 +1,68 @@
-# ExpenX
+ExpenX
+ExpenX is a lightweight and mobile-responsive expense tracker app built using the MERN stack. It allows users to manage income and expenses, visualize trends through charts, and generate downloadable reports — all in a secure and intuitive interface.
 
-Expense Tracker App built with the MERN stack.
+🚀 Features
+User Authentication – Secure JWT-based login & signup
 
-# Description
+Dashboard – View total balance, income, and expenses
 
-ExpenX is a mobile‑responsive personal finance dashboard designed to help you monitor and manage your income and expenses. With secure JWT‑based authentication, interactive charts, and comprehensive reporting, ExpenX provides a seamless user experience across devices.
+Income & Expense Management – Add, view, delete, and export records
 
-# Features
+Interactive Charts – Visualize trends with bar, pie, and line charts
 
-User Authentication
+Excel Reports – Export data with a single click
 
-Secure signup & login using JWT tokens
+Responsive UI – Seamless experience across devices
 
-Dashboard Overview
-
-Summary cards for Total Balance, Income, and Expenses
-
-Income Management
-
-Add, view, delete, and export income sources to Excel
-
-Expense Management
-
-Add, view, delete, and export expenses with category‑based tracking
-
-Interactive Charts
-
-Bar, Pie, and Line charts for visualizing financial trends
-
-Recent Transactions
-
-Quick‑access panel displaying the latest records
-
-Reports
-
-Download full income & expense data in Excel format
-
-Responsive UI
-
-Optimized for desktop, tablet, and mobile screens
-
-Intuitive Navigation
-
-Sidebar menu for easy access to Dashboard, Income, Expenses, and Logout
-
-Delete on Hover
-
-Hover over items to reveal delete buttons for quick removal
-
-# Tech Stack
-
-Frontend: React.js, styled‑components, Chart.js (or Recharts)
+🛠 Tech Stack
+Frontend: React.js, styled-components, Chart.js
 
 Backend: Node.js, Express.js
 
-Database: MongoDB with Mongoose ODM
+Database: MongoDB, Mongoose
 
-Authentication: JSON Web Tokens (JWT), bcrypt
+Authentication: JWT, bcrypt
 
-Reporting: SheetJS for Excel export
+Excel Export: SheetJS
 
-Deployment: Render (or Heroku)
-
-# Installation
-
-Clone the repository
-
+🔧 Installation
+bash
+Copy
+Edit
+# Clone the repo
 git clone https://github.com/anurudha07/ExpenX.git
 cd ExpenX
 
-Install dependencies
+# Install backend dependencies
+cd backend
+npm install
 
-cd backend && npm install
-cd ../frontend && npm install
+# Install frontend dependencies
+cd ../frontend
+npm install
+Setup Environment
+Create .env in the backend folder:
 
-Configure environment variables
-
-Create a .env file in the server folder:
-
-MONGO_URI=your_mongodb_connection_string
+ini
+Copy
+Edit
+MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 CLIENT_URL=http://localhost:3000
 PORT=5000
-
-Run the application
-
-# In one terminal (backend)
+Run App
+bash
+Copy
+Edit
+# In one terminal
 cd backend && npm run dev
 
-# In another terminal (frontend)
+# In another terminal
 cd frontend && npm run dev
+Open http://localhost:3000 in your browser.
 
-AccessOpen http://localhost:3000 in your browser.
-
-# Usage
-
-Sign up or log in with your credentials.
-
-Navigate through the sidebar to add/view income and expenses.
-
-View your dashboard summary and interactive charts.
-
-Export data as Excel reports.
-
-Hover over any transaction card to delete entries.
-
-Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
-
-# License
-
-This project is licensed under the MIT License.
-
-# Contact
-
-Anurudha Sarkar – anurudhs567@gmail.com
-Project Link: https://github.com/anurudha07/ExpenX
+📬 Contact
+Author: Anurudha Sarkar
+Email: anurudhs567@gmail.com
+Project: GitHub Repo
+Live App: ExpenX on Render
