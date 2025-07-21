@@ -1,71 +1,60 @@
-#ExpenX
-        "Your Expense Tracking Partner"
+# ExpenX
 
+Minimal expense tracker built with the MERN stack.
 
-🚀 Features:
+## Features
 
-User Authentication – Secure JWT-based login & signup
+- 🧾 Add, view, and delete expenses/income  
+- 📊 Charts for visual insights (bar, pie, line)  
+- 📥 Export to Excel  
+- 🔐 JWT Authentication  
+- 📱 Mobile-friendly responsive UI  
 
-Dashboard – View total balance, income, and expenses
+## Tech Stack
 
-Income & Expense Management – Add, view, delete, and export records
+- React, Node.js, Express, MongoDB  
+- JWT for authentication  
+- Chart.js for graphs  
+- SheetJS for Excel export  
 
-Interactive Charts – Visualize trends with bar, pie, and line charts
+## Getting Started
 
-Excel Reports – Export data with a single click
-
-Responsive UI – Seamless experience across devices
-
-🛠 Tech Stack:
-
-Frontend: React.js, styled-components, Chart.js
-
-Backend: Node.js, Express.js
-
-Database: MongoDB, Mongoose
-
-Authentication: JWT, bcrypt
-
-Excel Export: SheetJS
-
-🔧 Installation
-bash
-Copy
-Edit
-# Clone the repo
+```bash
+# Clone
 git clone https://github.com/anurudha07/ExpenX.git
-cd ExpenX
 
-# Install backend dependencies
+# Backend setup
 cd backend
 npm install
+# add .env file (see below)
 
-# Install frontend dependencies
+# Frontend setup
 cd ../frontend
 npm install
-Setup Environment
-Create .env in the backend folder:
-
+.env (in backend)
 ini
 Copy
 Edit
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_secret
 CLIENT_URL=http://localhost:3000
 PORT=5000
-Run App
+Run
 bash
 Copy
 Edit
-# In one terminal
-cd backend && npm run dev
+# Start backend
+cd backend
+npm run dev
 
-# In another terminal
-cd frontend && npm run dev
-Open http://localhost:3000 in your browser.
+# Start frontend
+cd ../frontend
+npm run dev
+Author
+Anurudha Sarkar
 
-📬 Contact
-Author: Anurudha Sarkar
-Email: anurudhs567@gmail.com
-Project: GitHub Repo
-Live App: ExpenX on Render
+markdown
+Copy
+Edit
+
+Let me know if you want a **BookShelf** version or one for **Music-Recommendation-Platform** in the same minimal style.
