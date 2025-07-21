@@ -1,20 +1,27 @@
-ExpenX
+#ExpenX
         "Your Expense Tracking Partner"
 
 
 🚀 Features:
 
 User Authentication – Secure JWT-based login & signup
+
 Dashboard – View total balance, income, and expenses
+
 Income & Expense Management – Add, view, delete, and export records
+
 Interactive Charts – Visualize trends with bar, pie, and line charts
+
 Excel Reports – Export data with a single click
+
 Responsive UI – Seamless experience across devices
 
 🛠 Tech Stack:
 
 Frontend: React.js, styled-components, Chart.js
+
 Backend: Node.js, Express.js
+
 Database: MongoDB, Mongoose
 
 Authentication: JWT, bcrypt
