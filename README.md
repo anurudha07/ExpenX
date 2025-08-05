@@ -27,34 +27,46 @@ Open uin VS code or any other relevant code editor
 
 Proceed with following steps further...
 
+# Setup .env file --->
 
-# Backend setup
-cd backend
-npm install
-# add .env file 
-
-# Frontend setup
-cd ../frontend
-npm install
-.env (in backend)
-
-
-.env --->
-
+----- backend -----
 MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
-CLIENT_URL=http://localhost:3000
-PORT=5000
+PORT=your_port || 5000
 
-# Start backend
+----- frontend -----
+VITE_API_URL=http://<YOUR_LOCAL_IP_OR_HOSTNAME>:8000  ----> setup for mobile testing as well
+
+
+
+🔗 Backend setup
 cd backend
+npm i
 npm run dev
 
-# Start frontend
-cd ../frontend
+
+💻 Frontend setup
+cd frontend
+npm i
+npm run build
 npm run dev
 
-by 
-Anurudha Sarkar
+
+Production ----------->
+
+Build the frontend on render:
+
+build command: npm install && npm run build
+publish directory: dist
+
+
+Build the backend on render:
+
+build command: npm i
+run command: npm start
+
+🙌 Author
+developed by 
+-- Anurudha Sarkar --
 
 
