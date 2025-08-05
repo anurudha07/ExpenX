@@ -1,8 +1,8 @@
-ExpenX
+ ExpenX
 
 Minimal expense tracker built with the MERN stack.
 
-## Features
+ Features
 
 - 🧾 Add, view, and delete expenses/income  
 - 📊 Charts for visual insights (bar, pie, line)  
@@ -10,14 +10,14 @@ Minimal expense tracker built with the MERN stack.
 - 🔐 JWT Authentication  
 - 📱 Mobile-friendly responsive UI  
 
-## Tech Stack
+ Tech Stack
 
 - React, Node.js, Express, MongoDB  
 - JWT for authentication  
 - Chart.js for graphs  
 - SheetJS for Excel export  
 
-## Getting Started
+ Getting Started
 
 ```
 🛠️ Installation
