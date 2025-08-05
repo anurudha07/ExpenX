@@ -60,16 +60,27 @@ npm run dev
 
 Production ----------->
 
-Build the frontend on render:
+
+Setup the frontend on render or any other equivalent:
 
 build command: npm install && npm run build
 publish directory: dist
 
+env setup ---
+VITE_API_URL=your_server_url_on_render
 
-Build the backend on render:
+
+
+Setup the backend on render or any other equivalent:
 
 build command: npm i
 run command: npm start
+
+env setup ---
+CLIENT_URL=your_client_url_on_render
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_secret
+PORT=your_port || 5000
 
 🙌 Author
 developed by 
