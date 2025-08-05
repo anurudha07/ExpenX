@@ -13,7 +13,7 @@ const app = express();
 // --- CORS configuration ---
 const allowedOrigins = [
   process.env.CLIENT_URL,        //live frontend
-  "http://localhost:3000",       //local server
+  "http://localhost:<your_port>",       //local server
 ];
 
 // Middleware to handle CORS
@@ -43,3 +43,4 @@ app.use("/uploads", express.static(path.join(__dirname,"uploads")));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
