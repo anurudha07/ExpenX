@@ -1,7 +1,7 @@
  ExpenX
 
 Minimal expense tracking full stack application built with the MERN stack.
-
+---
  Features
 
 - 🧾 Add, view, and delete expenses/income  
