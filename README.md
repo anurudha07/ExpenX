@@ -1,14 +1,18 @@
  ExpenX
 
 Minimal expense tracking full stack application built with the MERN stack.
+
 ---
+
  Features
 
 - 🧾 Add, view, and delete expenses/income  
 - 📊 Charts for visual insights (bar, pie, line)  
 - 📥 Export to Excel  
 - 🔐 JWT Authentication  
-- 📱 Mobile-friendly responsive UI  
+- 📱 Mobile-friendly responsive UI
+
+ ---
 
  Tech Stack
 
@@ -16,6 +20,8 @@ Minimal expense tracking full stack application built with the MERN stack.
 - JWT for authentication  
 - Chart.js for graphs  
 - SheetJS for Excel export  
+
+--- 
 
  Getting Started
 
