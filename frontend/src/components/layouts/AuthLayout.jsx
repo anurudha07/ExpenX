@@ -8,7 +8,7 @@ const AuthLayout = ({ children }) => {
     <div className="flex h-screen">
       {/* Left side */}
       <div className="w-full md:w-3/5 px-12 pt-8 pb-12 flex flex-col">
-        <h2 className="text-3xl font-extrabold text-primary mb-4">Expen-X</h2>
+        <h2 className="text-2xl  text-primary mb-4">Expen-X</h2>
         {/* Inline font load */}
         <>
           <link
@@ -16,7 +16,7 @@ const AuthLayout = ({ children }) => {
             rel="stylesheet"
           />
           <p
-            className="text-4xl italic mb-9"
+            className="text-3xl italic mb-9"
             style={{ fontFamily: 'Allura, cursive', color: '#000' }}
           >
             " Your Expense Tracking Partner... "
