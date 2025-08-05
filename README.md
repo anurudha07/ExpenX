@@ -69,7 +69,7 @@ publish directory: dist
 env setup ---
 VITE_API_URL=your_server_url_on_render
 
-
+-----------------------------------------------------------
 
 Setup the backend on render or any other equivalent:
 
