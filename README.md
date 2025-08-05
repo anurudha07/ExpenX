@@ -29,7 +29,7 @@ Minimal expense tracking full stack application built with the MERN stack.
 🛠️ Installation
 
 Download the zip file from https://github.com/anurudha07/FlowLeave
-Open uin VS code or any other relevant code editor
+Open in VS code or any other relevant code editor
 
 Proceed with following steps further...
 
