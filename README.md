@@ -1,4 +1,4 @@
-# ExpenX
+ExpenX
 
 Minimal expense tracker built with the MERN stack.
 
@@ -19,9 +19,14 @@ Minimal expense tracker built with the MERN stack.
 
 ## Getting Started
 
-```bash
-# Clone
-git clone https://github.com/anurudha07/ExpenX.git
+```
+🛠️ Installation
+
+Download the zip file from https://github.com/anurudha07/FlowLeave
+Open uin VS code or any other relevant code editor
+
+Proceed with following steps further...
+
 
 # Backend setup
 cd backend
