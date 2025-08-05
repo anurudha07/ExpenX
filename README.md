@@ -40,9 +40,6 @@ MONGO_URI=your_mongodb_url
 JWT_SECRET=your_secret
 PORT=your_port || 5000
 
------ frontend -----
-VITE_API_URL=http://<YOUR_LOCAL_IP_OR_HOSTNAME>:8000  ----> setup for mobile testing as well
-
 
 
 🔗 Backend setup
