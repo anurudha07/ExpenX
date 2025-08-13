@@ -19,7 +19,7 @@ Minimal expense tracking full stack application.
 
 - React, Node.js, Express, MongoDB  
 - JWT for authentication  
-- Chart.js for graphs  
+- Recharts for graphs  
 - SheetJS for Excel export  
 
 --- 
