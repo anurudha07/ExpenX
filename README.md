@@ -1,6 +1,7 @@
  ExpenX
 
-Minimal expense tracking full stack application built with the React.js frontend & Node backend.
+Minimal expense tracking full stack application.
+
 
 ---
 
