@@ -1,6 +1,6 @@
  ExpenX
 
-Minimal expense tracking full stack application built with the MERN stack.
+Minimal expense tracking full stack application built with the React.js frontend & Node backend.
 
 ---
 
